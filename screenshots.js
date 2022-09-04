@@ -38,14 +38,14 @@ for (let i = 0; i < websiteInfos.length; i++) {
     secretPhrase,
     options
   );
-  var output = `outputs/${websiteInfos[i].id}_${websiteInfos[i].name}.jpg`;
+  var output = `${websiteInfos[i].id}_${websiteInfos[i].name}.jpg`;
   screenshotMachine.readScreenshot(apiUrl).pipe(
     fs.createWriteStream(output).on("close", function () {
       uploadFile();
     }),
   );
 
-  const filePath = path.join(__dirname, `outputs/${websiteInfos[i].id}_${websiteInfos[i].name}.jpg`);
+  const filePath = path.join(__dirname, `${websiteInfos[i].id}_${websiteInfos[i].name}.jpg`);
   async function uploadFile() {
     try {
       //Upload file to Google Drive
