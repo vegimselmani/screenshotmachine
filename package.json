@@ -1,0 +1,19 @@
+{
+  "name": "screenshots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "screenshots.js",
+  "dependencies": {
+    "google-auth-library": "^8.5.1",
+    "googleapis": "^107.0.0",
+    "puppeteer": "^17.1.0",
+    "screenshotmachine": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

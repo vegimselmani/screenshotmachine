@@ -1,0 +1,27 @@
+[
+    {
+      "id": "1", 
+      "name":"iFunded",
+      "website": "https://planethome-invest.com/en/"
+    },
+    { 
+      "id": "2" ,
+      "name":"PropertyPartner",
+      "website":"https://www.propertypartner.co/"
+    },
+    { 
+      "id": "3", 
+      "name":"PropertyMoose",
+      "website":"https://propertymoose.co.uk/"
+    },
+    {
+      "id": "4",
+      "name": "Homegrown",
+      "website": "https://www.homegrown.co.uk/"
+    },
+    {
+      "id":"5",
+      "name":"RealtyMogul",
+      "website":"https://www.realtymogul.com/"
+    }
+  ]
